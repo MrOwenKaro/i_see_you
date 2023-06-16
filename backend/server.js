@@ -11,7 +11,7 @@ const port = process.env.PORT
 const atlas = process.env.ATLAS
 
 app.use(morgan("tiny"))
-app.use(cors({origin:"https://648c7f7b4afc03290130f644--tiny-faun-3a29d6.netlify.app"}))
+app.use(cors({origin:"https://648c84bf946d9526d62a13fc--celebrated-pastelito-7273bc.netlify.app"}))
 app.use(express.json())
 app.use("/api",Router)
 
